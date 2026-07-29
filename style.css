@@ -1,0 +1,37 @@
+.welcome{
+    display: flex;
+    flex-direction: column;
+    background-color: lightsteelblue;
+    width: fit-content;
+    padding: 3px;
+    border: dotted 2px black;
+    border-radius: 16px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    background-color: lightsteelblue;
+    width: fit-content;
+    padding: 3px;
+    border: dotted 2px black;
+    border-radius: 16px;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+
+#text{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: aqua;
+    margin: 5px;
+}
+
+body{
+    background-color: gainsboro;
+}
