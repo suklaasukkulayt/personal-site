@@ -21,8 +21,8 @@
     border: dotted 2px black;
     border-radius: 16px;
     position: absolute;
-    top: 20%;
-    left: 20%;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
 }
 
