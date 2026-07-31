@@ -7,3 +7,6 @@ About: this section has some info about me
 
 This website is made with HTML and CSS.  
 NO AI USED
+
+
+IDK WHY THE BACKGROUND SCALING DOESN'T WORK WITH GITHUB PAGES BUT WORKS WITH LIVE SERVER
