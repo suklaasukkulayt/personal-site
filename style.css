@@ -48,3 +48,13 @@ body{
     color: aqua;
     margin: 5px;
 }
+
+a.button {
+    padding: 1px 6px;
+    border: 1px outset buttonborder;
+    border-radius: 3px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: buttontext;
+    background-color: buttonface;
+    text-decoration: none;
+}
