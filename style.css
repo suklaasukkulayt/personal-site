@@ -1,6 +1,19 @@
+@view-transition {
+  navigation: auto;
+}
+
+::view-transition-group(root) {
+    animation-duration: 1s;
+}
+
+
 body{
     background-image: url("402fd3c96bcadd0.png");
-    background-size: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    margin: 0;
 }
 
 .welcome{
