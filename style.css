@@ -15,6 +15,12 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    transition: 0.5s;
+}
+
+.welcome:hover{
+    transform: translate(-50%, -50%) scale(1.1);
+    
 }
 
 .projects{
@@ -29,6 +35,12 @@ body{
     top: 60%;
     left: 60%;
     transform: translate(-50%, -50%);
+    transition: 0.5s;
+}
+
+.projects:hover{
+    transform: translate(-50%, -50%) scale(1.1);
+    
 }
 
 #text{
