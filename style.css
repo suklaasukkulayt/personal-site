@@ -59,9 +59,6 @@ nav a {
     left: 60%;
     transform: translate(-50%, -50%);
     transition: 0.5s;
-    max-width: calc(100vw - 2rem);
-    box-sizing: border-box;
-    left: clamp(1rem, 20%, calc(100% - 620px));
 }
 
 .projects:hover{
