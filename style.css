@@ -16,6 +16,16 @@ body{
     margin: 0;
 }
 
+nav {
+  position: relative;
+  z-index: 9999;
+}
+
+nav a {
+  position: relative;
+  z-index: 9999;
+}
+
 .welcome{
     display: flex;
     flex-direction: column;
@@ -49,6 +59,9 @@ body{
     left: 60%;
     transform: translate(-50%, -50%);
     transition: 0.5s;
+    max-width: calc(100vw - 2rem);
+    box-sizing: border-box;
+    left: clamp(1rem, 20%, calc(100% - 620px));
 }
 
 .projects:hover{
