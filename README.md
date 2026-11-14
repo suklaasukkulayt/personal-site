@@ -2,6 +2,8 @@
 
 ## Random info:  
 My new and improved personal website!  
+[Link to the old one](https://suklaasukkulayt.github.io/personal-site_OLD/)  
+
 Made for the [Phantom Hack Club](https://phantom.hackclub.com) event  
 
 ## This has:  
