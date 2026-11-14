@@ -38,3 +38,10 @@ Made for the [Phantom Hack Club](https://phantom.hackclub.com) event
 ## AI USAGE:  
 - Debugging when something isn't working  
 Yeah that's it, **no** "claude chatgpiti make this website 10000 times better make no mistakes", even this README is 100% human written  
+
+## Running locally:  
+1. Clone the repo(requires 'git' to be installed)  
+`git clone https://github.com/suklaasukkulayt/personal-site.git`  
+
+or click the green 'Code' button and click 'Download .zip'  
+2. Run index.html so it opens in your browser!
