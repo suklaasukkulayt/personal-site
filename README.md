@@ -1,2 +1,2 @@
-# personal-site_new
+# Personal Site
 My new and improved personal website!
