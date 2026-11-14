@@ -1,5 +1,5 @@
 body{
-    background-color: honeydew;
+    background: linear-gradient(90deg, #00ffd9 0%, #1092d3 50%, #00ff95 100%);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 6px;
     padding: 3px;
@@ -12,9 +12,12 @@ h1 {
 
 .about{
     border-radius: 16px;
-    background-color: aquamarine;
+    background-color: rgba(127, 255, 212, 0.5);
+    backdrop-filter: blur(3px);
     padding-left: 5px;
     padding-bottom: 1px;
+    border: greenyellow 1px dotted;
+    margin-top: 50px;
 }
 
 .projects{
@@ -22,13 +25,19 @@ h1 {
     padding-right: 34px;
     padding-bottom: 47px;
     border-radius: 16px;
-    background-color: rgb(127, 255, 185);
+    background-color: rgba(127, 255, 185, 0.5);
+    backdrop-filter: blur(3px);
+    border: greenyellow 1px dotted;
+    margin-top: 50px;
 }
 
 .contacts{
     border-radius: 16px;
-    background-color: aquamarine;
+    background-color: rgba(127, 255, 212, 0.5);
+    backdrop-filter: blur(3px);
     padding-left: 5px;
+    border: greenyellow 1px dotted;
+    margin-top: 50px;
 }
 
 .projectsection {
@@ -231,4 +240,41 @@ h1 {
 
 .aboutsection p {
     margin: 0;
+}
+
+#pfp:hover {
+    transform: scale(1.02);
+    transition: ease 0.5s;
+}
+
+#pfp {
+    transition: ease 0.5s;
+}
+
+#sdcards:hover {
+    transform: scale(1.02);
+    transition: ease 0.5s;
+}
+
+#sdcards {
+    transition: ease 0.5s;
+    max-width: 600px;
+    width: 100%;
+    height: auto;
+    border-radius: 32px;
+}
+
+#title {
+    transition: ease 0.5s;
+    background-color: rgb(37, 192, 37);
+    text-align: center;
+    width: fit-content;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#title:hover {
+    transform: scale(1.05);
+    transition: ease 0.5s;
 }
