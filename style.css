@@ -93,7 +93,6 @@ h1 {
 .contact{
     background-color: rgba(34, 211, 137, 0.616);
     backdrop-filter: blur(5px);
-    width: fit-content;
     border-radius: 16px;
     padding: 0 10px 10px 10px;
     margin-bottom: 15px;
@@ -108,13 +107,27 @@ h1 {
 
 .contactsection{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 5px));
-    gap: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 300px));
+    gap: 20px;
 }
 
 .contactImg {
     width: 50px;
     height: 50px;
+}
+
+.contactText {
+    display: flex;
+    flex-direction: column;
+}
+
+.contactText p {
+    margin: 0;
+}
+
+.contactText h3 {
+    align-self: center;
+    margin-bottom: 0;
 }
 
 #discordbutton {
@@ -266,12 +279,14 @@ h1 {
 
 #title {
     transition: ease 0.5s;
-    background-color: rgb(37, 192, 37);
+    background-color: rgb(26, 240, 144);
     text-align: center;
     width: fit-content;
     position: relative;
     left: 50%;
     transform: translate(-50%, -50%);
+    border-radius: 6px;
+    padding: 5px;
 }
 
 #title:hover {
