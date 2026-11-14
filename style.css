@@ -10,6 +10,19 @@ h1 {
     text-align: center;
 }
 
+nav a {
+    margin: 5px;
+}
+
+nav {
+    text-align: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
 .about{
     border-radius: 16px;
     background-color: rgba(127, 255, 212, 0.5);
@@ -290,6 +303,6 @@ h1 {
 }
 
 #title:hover {
-    transform: scale(1.05);
+    transform: translate(-50%, -50%) scale(1.05);
     transition: ease 0.5s;
 }
