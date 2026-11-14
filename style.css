@@ -118,6 +118,10 @@ html {
     align-content: center;
 }
 
+.contact:hover{
+    transform: scale(1.05);
+}
+
 .contactsection{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 300px));
@@ -300,6 +304,7 @@ html {
     transform: translate(-50%, -50%);
     border-radius: 6px;
     padding: 5px;
+    margin-top: 40px;
 }
 
 #title:hover {
