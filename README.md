@@ -35,6 +35,9 @@ Made for the [Phantom Hack Club](https://phantom.hackclub.com) event
 ![Personal site screenshot 5](images/screenshot5.png)  
 ![Personal site screenshot 6](images/screenshot6.png)  
 
+## Updated sections:  
+![Personal site updated screenshot 1](images/updatedscreenshot1.png)  
+
 ## AI USAGE:  
 - Debugging when something isn't working  
 Yeah that's it, **no** "claude chatgpiti make this website 10000 times better make no mistakes", even this README is 100% human written  
