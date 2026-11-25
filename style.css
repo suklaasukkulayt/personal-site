@@ -324,3 +324,29 @@ html {
     transform: translate(-50%, -50%) scale(1.05);
     transition: ease 0.5s;
 }
+
+.completedtag {
+    width: fit-content;
+    padding: 3px;
+    background-color: rgb(89, 236, 126);
+    border: black 1px solid;
+    border-radius: 6px;
+    position: absolute;
+    display: flex;
+    top: 20px;
+    right: 10px;
+    transform: rotate(25deg);
+}
+
+.progresstag{
+    width: fit-content;
+    padding: 3px;
+    background-color: rgb(214, 55, 55);
+    border: black 1px solid;
+    border-radius: 6px;
+    position: absolute;
+    display: flex;
+    top: 20px;
+    right: 10px;
+    transform: rotate(25deg);
+}
