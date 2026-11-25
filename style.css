@@ -23,7 +23,7 @@ html {
 }
 
 
-.about{
+.about {
     border-radius: 16px;
     background-color: rgba(127, 255, 212, 0.5);
     backdrop-filter: blur(3px);
@@ -33,7 +33,7 @@ html {
     margin-top: 50px;
 }
 
-.projects{
+.projects {
     padding-left: 34px;
     padding-right: 34px;
     padding-bottom: 47px;
@@ -44,7 +44,18 @@ html {
     margin-top: 50px;
 }
 
-.contacts{
+.internetarchives {
+    padding-left: 34px;
+    padding-right: 34px;
+    padding-bottom: 47px;
+    border-radius: 16px;
+    background-color: rgba(127, 255, 185, 0.5);
+    backdrop-filter: blur(3px);
+    border: greenyellow 1px dotted;
+    margin-top: 50px;
+}
+
+.contacts {
     border-radius: 16px;
     background-color: rgba(127, 255, 212, 0.5);
     backdrop-filter: blur(3px);
@@ -59,7 +70,13 @@ html {
     gap: 20px;
 }
 
-.project{
+.internetarchivesection {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 520px), 1fr));
+    gap: 20px;
+}
+
+.project {
     background-color: rgba(34, 211, 137, 0.616);
     backdrop-filter: blur(5px);
     width: auto;
@@ -70,40 +87,51 @@ html {
     z-index: 1;
 }
 
-.project:hover{
+.internetarchive {
+    background-color: rgba(34, 211, 137, 0.616);
+    backdrop-filter: blur(5px);
+    width: auto;
+    border-radius: 16px;
+    padding: 0 10px 10px 10px;
+    margin-bottom: 15px;
+    transition: ease-in-out 0.35s;
+    z-index: 1;
+}
+
+.project:hover, .internetarchive:hover {
     transition: ease-in-out 0.35s;
     transform: scale(1.05);
     z-index: 2;
 }
 
-.project:active{
+.project:active, .internetarchive:active {
     transition: ease-in-out 0.35s;
     transform: scale(1.1);
     z-index: 3;
 }
 
 
-.projectTitle{
+.projectTitle {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.projectDesc{
+.projectDesc {
     font-size: 14px;
 }
 
-.projectImg{
+.projectImg {
     border-radius: 16px;
     width: 100%;
     height: auto;
     padding-bottom: 0px;
 }
 
-.projectLink{
+.projectLink {
     padding-left: 16px;
     margin-top: 0px;
 }
 
-.contact{
+.contact {
     background-color: rgba(34, 211, 137, 0.616);
     backdrop-filter: blur(5px);
     border-radius: 16px;
@@ -118,11 +146,11 @@ html {
     align-content: center;
 }
 
-.contact:hover{
+.contact:hover {
     transform: scale(1.05);
 }
 
-.contactsection{
+.contactsection {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 300px));
     gap: 20px;
@@ -248,7 +276,7 @@ html {
     transition: ease-in-out 0.35s;
 }
 
-@keyframes copyOpen{
+@keyframes copyOpen {
     from {
         opacity: 0;
     }
@@ -258,7 +286,7 @@ html {
     }
 }
 
-@keyframes copyClose{
+@keyframes copyClose {
     from {
         opacity: 1;
     }
@@ -338,7 +366,7 @@ html {
     transform: rotate(25deg);
 }
 
-.progresstag{
+.progresstag {
     width: fit-content;
     padding: 3px;
     background-color: rgb(214, 55, 55);
